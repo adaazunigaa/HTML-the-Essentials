@@ -1,0 +1,42 @@
+CHILD: >
+    *nav>ul>li
+        <nav>
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
+
+
+
+
+SIBILING: +
+div+p+bq
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+
+
+
+
+MULTIPL: *
+ul>li*5
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+
+
+
+ITEM NUMBERING: $
+ul>li.item$*5
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+</ul>
